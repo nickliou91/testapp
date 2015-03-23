@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  
+  root 'servers#index'
   resources :servers
 
   # The priority is based upon order of creation: first created -> highest priority.
