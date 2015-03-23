@@ -4,7 +4,7 @@ lock '3.4.0'
 # set :application, 'my_app_name'
 # set :repo_url, 'git@example.com:me/my_repo.git'
 set :application, 'testapp'
-set :repo_url, 'git@github.com:nickliou91/testapp.git'
+set :repo_url, 'https://github.com/nickliou91/testapp.git'
 set :deploy_to, '/opt/www/testapp'
 set :user, 'deploy'
 set :linked_dirs, %w{log tmp/pids tmp/cache tmp/sockets}
